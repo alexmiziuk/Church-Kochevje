@@ -1,0 +1,48 @@
+@mixin title($text-color-primary, $margin-bottom) {
+	color: $text-color-primary;
+	font-size: 60px;
+	line-height: 72px;
+	font-family: "Poppins-Bold", sans-serif;
+	margin-bottom: $margin-bottom;
+}
+
+ @mixin title-768px() {
+	font-size: 50px;
+	line-height: 60px;
+}
+
+@mixin title-576px() {
+	font-size: 40px;
+	line-height: 50px;
+}
+
+@mixin subtitle($text-color-primary, $margin-bottom) {
+	color: $text-color-primary;
+	font-size: 60px;
+	font-size: 20px;
+	line-height: 32px;
+	font-family: "Poppins-Medium", sans-serif;
+	margin-bottom: $margin-bottom;
+}
+
+@mixin subtitle-768px() {
+	font-size: 18px;
+	line-height: 28px;
+}
+
+@mixin subtitle-576px() {
+	font-size: 17px;
+	line-height: 25px;
+}
+
+@mixin text($text-color-primary) {
+	color: $text-color-primary;
+	font-size: 16px;
+	line-height: 24px;
+	font-family: "Poppins-Regular", sans-serif;
+}
+
+@mixin text-768px() {
+	font-size: 14px;
+	line-height: 22px;
+}

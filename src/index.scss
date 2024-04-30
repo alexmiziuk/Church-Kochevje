@@ -1,0 +1,24 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+html {
+	scroll-behavior: smooth;
+}
+
+.container {
+	display: block;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+@import "libs/normalize";
+@import "style/_fonts.scss";
+@import "style/_var.scss";
+@import "style/_mixin.scss";
+@import "style/_nav.scss";
+@import "style/_burger.scss";
+@import "style/_burgerMenu.scss";
+@import "style/_welcome.scss";
+@import "style/_oNas.scss";
