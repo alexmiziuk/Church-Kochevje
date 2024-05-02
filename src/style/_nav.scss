@@ -47,7 +47,7 @@
 		&-item {
 			cursor: pointer;
 			text-decoration: none;
-			color: #8b2323;
+			color: $text-color-primary;
 			transition: all 0.3s ease-in-out;
 			&:hover {
 				color: rgba(139, 35, 35, 0.6);
