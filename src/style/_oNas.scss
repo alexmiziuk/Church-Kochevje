@@ -133,6 +133,12 @@
 }
 @media (max-width: 640px) {
 	.o-nas {
+		&__title {
+			text-align: center;
+		}
+		&__subtitle {
+			text-align: center;
+		}
 		&__flex-container {
 			flex-direction: column-reverse;
 		}

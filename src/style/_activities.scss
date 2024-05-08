@@ -127,6 +127,9 @@
 
 @media (max-width: 641px) {
 	.activities {
+		&__title {
+			text-align: center;
+		}
 		&__flex-container {
 			flex-direction: column;
 		}
