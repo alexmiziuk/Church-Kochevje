@@ -1,0 +1,214 @@
+.footer {
+	background-color: #121212;
+	padding: 100px 0 80px 0;
+	&__title {
+		@include title($text-color-primary, 33px);
+		color: white;
+		text-align: center;
+	}
+	&__grid-container {
+		display: grid;
+		grid-template: 1fr / repeat(3, 1fr);
+		gap: 40px;
+		/* justify-content: space-between;
+		align-items: center; */
+		padding: 20px 0;
+	}
+	&__text-wrapper {
+		/* max-width: 340px; */
+	}
+	&__ekc-text {
+		@include text($text-color-primary);
+		color: #717171;
+		& span {
+			position: relative;
+			color: /* #d2a507 */ #1b63b6;
+		}
+	}
+	&__img {
+		/* position: absolute;
+		top: -10%;
+		left: -42%; */
+		width: 19px;
+		height: auto;
+	}
+	&__bible-text {
+		display: block;
+		margin-top: 15px;
+		text-decoration: none;
+		@include text($text-color-primary);
+		color: /* wheat */ rgb(158, 160, 163);
+		transition: all ease 0.3s;
+		&:hover {
+			color: rgb(193, 195, 200);
+		}
+		& span {
+			position: relative;
+			color: #717171;
+		}
+	}
+	&__contacts {
+		@include text($text-color-primary);
+		color: #717171;
+		&-title {
+			@include subtitle($text-color-primary, 22px);
+			color: rgb(158, 160, 163);
+		}
+		&-telephone {
+			margin-bottom: 10px;
+			& a {
+				color: rgb(158, 160, 163);
+				text-decoration: none;
+				transition: all ease 0.3s;
+				&:hover {
+					color: rgb(193, 195, 200);
+				}
+			}
+		}
+		&-mail {
+			margin-bottom: 10px;
+			& a {
+				color: rgb(158, 160, 163);
+				text-decoration: none;
+				transition: all ease 0.3s;
+				&:hover {
+					color: rgb(193, 195, 200);
+				}
+			}
+		}
+		&-address {
+			& a {
+				color: rgb(158, 160, 163);
+				text-decoration: none;
+				transition: all ease 0.3s;
+				&:hover {
+					color: rgb(193, 195, 200);
+				}
+			}
+		}
+		&-btn {
+			margin-top: 15px;
+			background-color: olive;
+			color: #fff;
+			font-size: 18px;
+			line-height: 27px;
+			font-family: "Poppins-Regular", sans-serif;
+			padding: 10px 40px;
+			border: none;
+			-webkit-text-decoration: none;
+			text-decoration: none;
+			cursor: pointer;
+			border-radius: 7px;
+			margin-top: 40px;
+			transition: all ease 0.3s;
+			&:hover {
+				background-color: rgb(99, 99, 4);
+			}
+		}
+	}
+	&__nav {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		height: 300px;
+		& li {
+			list-style-type: none;
+			height: 50px;
+			/* width: 300px; */
+			display: flex;
+			align-items: center;
+			border: #717171;
+			border-style: solid;
+			border-width: 0 0 1px 0;
+			transition: all ease 0.3s;
+			&:hover {
+				border-color: rgb(193, 195, 200);
+			}
+		}
+		&-item {
+			text-decoration: none;
+			transition: all ease 0.3s;
+			@include text($text-color-primary);
+			color: rgb(158, 160, 163);
+			&:hover {
+				color: rgb(193, 195, 200);
+			}
+		}
+	}
+}
+.block__copyright {
+	background-color: #0d0d0d;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	&-text {
+		@include text($text-color-primary);
+		color: rgb(158, 160, 163);
+	}
+}
+
+@media (max-width: 992px) {
+	.footer {
+		&__grid-container {
+			grid-template: 2fr / repeat(2, 1fr);
+		}
+		&__contacts {
+			display: grid;
+			justify-content: center;
+			&-btn {
+				text-align: center;
+				width: 175px;
+				height: 48px;
+				padding: 10px 0px;
+			}
+		}
+	}
+}
+@media (max-width: 768px) {
+	.footer {
+		&__ekc-text {
+			@include text-768px();
+		}
+		&__bible-text {
+			@include text-768px();
+		}
+		&__contacts {
+			@include text-768px();
+			&-title {
+				@include subtitle-768px();
+			}
+		}
+		&__nav {
+			&-item {
+				@include text-768px();
+			}
+		}
+	}
+	.block__copyright {
+		&-text {
+			@include text-768px();
+		}
+	}
+}
+@media (max-width: 530px) {
+	.footer__grid-container {
+		grid-template: 1fr 0.8fr 300px / 1fr;
+		gap: 60px 0;
+	}
+	.footer__contacts {
+		justify-content: start;
+		/* grid-column: 1;
+		grid-row: 1; */
+	}
+
+	.footer__text-wrapper {
+		/* grid-column: 1;
+		grid-row: 2; */
+	}
+	.footer__nav {
+		margin-top: 20px;
+		/* grid-column: 1;
+		grid-row: 3; */
+	}
+}

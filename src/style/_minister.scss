@@ -1,0 +1,105 @@
+.minister {
+	padding: 100px 0 80px 0;
+	background-color: #b1ccbd;
+	&__flex-container {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__text-wrapper {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		max-width: 650px;
+		margin-left: 100px;
+	}
+	&__title {
+		@include title($text-color-primary, 33px);
+	}
+	&__text {
+		width: 100%;
+		@include text($text-color-primary);
+	}
+	&__text-pastor-one {
+		margin-bottom: 15px;
+	}
+	&__img {
+		width: 470px;
+		height: auto;
+		object-fit: cover;
+	}
+}
+
+@media (max-width: 1100px) {
+	.minister {
+		&__text-wrapper {
+			margin-left: 60px;
+		}
+	}
+}
+@media (max-width: 992px) {
+	.minister {
+		&__text-wrapper {
+			margin-left: 40px;
+		}
+	}
+}
+
+@media (max-width: 934px) {
+	.minister {
+		&__img {
+			-o-object-fit: cover;
+			object-fit: cover;
+			width: 436px;
+		}
+	}
+}
+@media (max-width: 838px) {
+	.minister {
+		&__img {
+			-o-object-fit: cover;
+			object-fit: cover;
+			width: 366px;
+			height: 620px;
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.minister {
+		&__title {
+			@include title-768px();
+		}
+		&__text {
+			@include text-768px();
+		}
+		&__img {
+			width: 291px;
+			height: 570px;
+		}
+	}
+}
+@media (max-width: 641px) {
+	.minister {
+		&__flex-container {
+			flex-direction: column-reverse;
+		}
+		&__img {
+			width: 100%;
+			height: auto;
+			margin-top: 40px;
+		}
+		&__title {
+			text-align: center;
+		}
+		&__text-wrapper {
+			margin-left: 0px;
+		}
+	}
+}
+@media (max-width: 576px) {
+	.minister {
+		&__title {
+			@include title-576px();
+		}
+	}
+}
