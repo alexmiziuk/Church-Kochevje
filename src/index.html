@@ -20,7 +20,7 @@
 					</div>
 				</a>
 				<div class="nav__menu">
-					<a class="nav__menu-item nav__menu-item--active" href="#pricing">Dobrodošli</a>
+					<a class="nav__menu-item" href="#pricing">Dobrodošli</a>
 					<a class="nav__menu-item" href="#o-nas">O nas</a>
 					<a class="nav__menu-item" href="#activities">Aktivnosti</a>
 					<a class="nav__menu-item" href="#kaj-verujemo">Kaj verujemo</a>
@@ -252,6 +252,7 @@
 						</div>
 					</div>
 				</div>
+
 	</section>
 	<section class="footer">
 		<div class="container">
@@ -314,12 +315,45 @@
 				</ul>
 			</div>
 		</div>
+		<div id="contactModal" class="modal">
+			<div class="modal__content">
+				<div class="modal__img-container">
+					<img src="./img/contact.jpg" alt="contact" class="modal__img">
+				</div>
+				<div class="modal__form-container">
+					<button class="modal__button-exit">
+						<img src="./icons/cross-button.png" alt="cross button" class="modal__icon-exit">
+					</button>
+					<h2 class="modal__title">Z veseljem vam bomo odgovorili
+						na vaša vprašanja</h2>
+					<form class="modal__form" id="contactForm">
+						<label class="modal__label-name" for="name">Ime:</label>
+						<input class="modal__form-name" type="text" id="name" name="name" placeholder="Matej Novak">
+						<div class="error error-name hide">Name is required</div>
+						<label class="modal__label-email" for="email">E-naslov:</label>
+						<input class="modal__form-email" type="email" id="email" name="email" placeholder="matej.novak@evc.si">
+						<div class="error error-mail hide">Email is invalid</div>
+						<label class="modal__label-message" for="message">Sporočilo:</label>
+						<textarea class="modal__form-message" id="message" name="message" rows="4" placeholder="Tukaj je vaša sporočilo"></textarea>
+						<div class="error error-message hide">Message is required</div>
+						<button class="modal__btn" type="submit">Pošlji</button>
+						<div class="modal__container-privacy">
+							<input class="modal__checkbox" type="checkbox" name="checkbox">
+							<div class="modal__container-item">
+								S pošiljanjem se strinjate z našimi <a href="/#conditions">Pogoji</a> and <a
+									href="/#privacy">Politiko Zasebnosti</a>
+							</div>
+						</div>
+						<div class="error error-checkbox hide">Potrditveno polje je obvezno</div>
+					</form>
+				</div>
+			</div>
+		</div>
 	</section>
 	<div class="block__copyright">
 		<div class="container">
 			<p class="block__copyright-text">© 2024. Evangeličanska cerkev Kočevje. All rights reserved.</p>
 		</div>
-
 	</div>
 
 </body>

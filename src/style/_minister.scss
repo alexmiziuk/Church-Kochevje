@@ -21,6 +21,10 @@
 	}
 	&__text-pastor-one {
 		margin-bottom: 15px;
+		
+	}
+	&__text-pastor-two {
+		
 	}
 	&__img {
 		width: 470px;
@@ -144,6 +148,9 @@
 			margin-top: 10px;
 			margin-left: 2px;
 		}
+		&__contacts-telephone-mail {
+			width: 176px;
+		}
 	}
 }
 @media (max-width: 838px) {
@@ -169,6 +176,7 @@
 			width: 291px;
 			height: 570px;
 		}
+		
 	}
 }
 @media (max-width: 641px) {

@@ -1,3 +1,5 @@
+import { getScrollBarSize } from './utils.js';
+
 function toggleBurgerMenu() {
 	const toggleButton = document.getElementById('toggleBurger');
 	const burger = document.querySelector('.burger');
@@ -56,111 +58,7 @@ function toggleBurgerMenu() {
 	burgerMenuContainer.addEventListener('click', (event) => {
 		event.stopPropagation();
 	});
-
-	function getScrollBarSize() {
-		var el = window.document.createElement('textarea'),
-			style = {
-				'visibility': 'hidden',
-				'position': 'absolute',
-				'zIndex': '-2147483647',
-				'top': '-1000px',
-				'left': '-1000px',
-				'width': '1000px',
-				'height': '1000px',
-				'overflow': 'scroll',
-				'margin': '0',
-				'border': '0',
-				'padding': '0'
-			},
-			support = el.clientWidth !== undefined && el.offsetWidth !== undefined;
-
-		for (var key in style) {
-			if (style.hasOwnProperty(key)) {
-				el.style[key] = style[key];
-			}
-		}
-
-		var size = null;
-		if (support && window.document.body) {
-			window.document.body.appendChild(el);
-			size = [el.offsetWidth - el.clientWidth, el.offsetHeight - el.clientHeight];
-			window.document.body.removeChild(el);
-		}
-		return size;
-	}
 }
 
 toggleBurgerMenu();
 
-
-/* var video = document.getElementById('myVideo');
-video.play();
- */
-
-/* 
-function toggleBurgerMenu() {
-	const toggleButton = document.getElementById('toggleBurger');
-	const burgerMenu = document.querySelector('.burger');
-	const burgerLayer = document.querySelector('.burger-layer');
-
-	toggleButton.addEventListener('click', function () {
-		 burgerMenu.classList.toggle('active-burger');
-		 if (burgerMenu.classList.contains('active-burger')) {
-			  burgerLayer.classList.add('burger-layer-active');
-			  var scrollBarSize = getScrollBarSize();
-			  if (scrollBarSize && scrollBarSize[1] > 0) {
-					document.body.style.paddingRight = scrollBarSize[1] + 'px';
-			  }
-			  document.body.style.overflow = 'hidden';
-		 } else {
-			  burgerLayer.classList.remove('burger-layer-active');
-			  document.body.style.paddingRight = '';
-			  document.body.style.overflow = 'auto';
-		 }
-	});
-
-	// Закрывать меню при клике на пункт меню
-	const menuItems = document.querySelectorAll('.burger-menu__item');
-	menuItems.forEach(item => {
-		 item.addEventListener('click', () => {
-			  burgerMenu.classList.remove('active-burger');
-			  burgerLayer.classList.remove('burger-layer-active');
-			  document.body.style.paddingRight = '';
-			  document.body.style.overflow = 'auto';
-		 });
-	});
-}
-
-function getScrollBarSize() {
-	var el = window.document.createElement('textarea'),
-		 style = {
-			  'visibility': 'hidden',
-			  'position': 'absolute',
-			  'zIndex': '-2147483647',
-			  'top': '-1000px',
-			  'left': '-1000px',
-			  'width': '1000px',
-			  'height': '1000px',
-			  'overflow': 'scroll',
-			  'margin': '0',
-			  'border': '0',
-			  'padding': '0'
-		 },
-		 support = el.clientWidth !== undefined && el.offsetWidth !== undefined;
-
-	for (var key in style) {
-		 if (style.hasOwnProperty(key)) {
-			  el.style[key] = style[key];
-		 }
-	}
-
-	var size = null;
-	if (support && window.document.body) {
-		 window.document.body.appendChild(el);
-		 size = [el.offsetWidth - el.clientWidth, el.offsetHeight - el.clientHeight];
-		 window.document.body.removeChild(el);
-	}
-	return size;
-}
-
-toggleBurgerMenu(); */
