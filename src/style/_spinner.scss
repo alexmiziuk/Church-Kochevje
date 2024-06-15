@@ -1,0 +1,101 @@
+.google-spin-wrapper {
+	position: absolute;
+	top: -50px;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 100000;
+	display: none;
+}
+.spinner-show {
+	display: block !important;
+}
+#xLoader .google-spin-wrapper .google-spin {
+	display: block;
+	position: relative;
+	left: 50%;
+	top: 50%;
+	width: 100px;
+	height: 100px;
+	margin: -50px 0 0 -50px;
+	border-radius: 50%;
+	border: 3px solid transparent;
+	border-top-color: #3498db;
+	-webkit-animation: xLoaderGoogleSpin 2s linear infinite;
+	-moz-animation: xLoaderGoogleSpin 2s linear infinite;
+	-ms-animation: xLoaderGoogleSpin 2s linear infinite;
+	-o-animation: xLoaderGoogleSpin 2s linear infinite;
+	animation: xLoaderGoogleSpin 2s linear infinite;
+}
+#xLoader .google-spin-wrapper .google-spin:before {
+	content: "";
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	right: 5px;
+	bottom: 5px;
+	border-radius: 50%;
+	border: 3px solid transparent;
+	border-top-color: #e74c3c;
+	-webkit-animation: xLoaderGoogleSpin 3s linear infinite;
+	-moz-animation: xLoaderGoogleSpin 3s linear infinite;
+	-ms-animation: xLoaderGoogleSpin 3s linear infinite;
+	-o-animation: xLoaderGoogleSpin 3s linear infinite;
+	animation: xLoaderGoogleSpin 3s linear infinite;
+}
+#xLoader .google-spin-wrapper .google-spin:after {
+	content: "";
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	right: 15px;
+	bottom: 15px;
+	border-radius: 50%;
+	border: 3px solid transparent;
+	border-top-color: #f9c922;
+	-webkit-animation: xLoaderGoogleSpin 2s linear infinite;
+	-moz-animation: xLoaderGoogleSpin 2s linear infinite;
+	-ms-animation: xLoaderGoogleSpin 2s linear infinite;
+	-o-animation: xLoaderGoogleSpin 2s linear infinite;
+	animation: xLoaderGoogleSpin 2s linear infinite;
+}
+@-webkit-keyframes xLoaderGoogleSpin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+@-moz-keyframes xLoaderGoogleSpin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+@-ms-keyframes xLoaderGoogleSpin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+@-o-keyframes xLoaderGoogleSpin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+@keyframes xLoaderGoogleSpin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}

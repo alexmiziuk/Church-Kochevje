@@ -102,7 +102,9 @@ function showModal() {
 			document.body.style.overflow = 'auto';
 		}, 600);
 		modalWindow.classList.remove('modal__visible');
-
+		form.reset();
+		clearErrors();
+		restorePlaceholders();
 	});
 }
 function handleInputFocusBlur() {
@@ -118,6 +120,18 @@ function handleInputFocusBlur() {
 		});
 	});
 }
+
+function restorePlaceholders() {
+	inputs.forEach(input => {
+		input.classList.remove('placeholder-hidden');
+	});
+}
+export function hideModalForm() {
+	document.body.style.overflow = 'auto';
+	modalWindow.classList.remove('modal__visible');
+}
+
 showModal();
 validateForm();
 handleInputFocusBlur();
+

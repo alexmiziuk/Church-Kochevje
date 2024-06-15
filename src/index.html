@@ -326,29 +326,43 @@
 					</button>
 					<h2 class="modal__title">Z veseljem vam bomo odgovorili
 						na vaša vprašanja</h2>
-					<form class="modal__form" id="contactForm">
+					<form class="modal__form" id="contactForm" action="#" method="post">
 						<label class="modal__label-name" for="name">Ime:</label>
 						<input class="modal__form-name" type="text" id="name" name="name" placeholder="Matej Novak">
 						<div class="error error-name hide">Name is required</div>
+
 						<label class="modal__label-email" for="email">E-naslov:</label>
-						<input class="modal__form-email" type="email" id="email" name="email" placeholder="matej.novak@evc.si">
+						<input class="modal__form-email" type="email" id="email" name="email"
+							placeholder="matej.novak@evc.si">
 						<div class="error error-mail hide">Email is invalid</div>
+
 						<label class="modal__label-message" for="message">Sporočilo:</label>
-						<textarea class="modal__form-message" id="message" name="message" rows="4" placeholder="Tukaj je vaša sporočilo"></textarea>
+						<textarea class="modal__form-message" id="message" name="message" rows="4"
+							placeholder="Tukaj je vaša sporočilo"></textarea>
 						<div class="error error-message hide">Message is required</div>
+
 						<button class="modal__btn" type="submit">Pošlji</button>
+
 						<div class="modal__container-privacy">
-							<input class="modal__checkbox" type="checkbox" name="checkbox">
+							<input class="modal__checkbox" type="checkbox" name="checkbox" id="checkbox">
 							<div class="modal__container-item">
 								S pošiljanjem se strinjate z našimi <a href="/#conditions">Pogoji</a> and <a
 									href="/#privacy">Politiko Zasebnosti</a>
 							</div>
 						</div>
 						<div class="error error-checkbox hide">Potrditveno polje je obvezno</div>
+						<div id="xLoader"><div class="google-spin-wrapper"><div class="google-spin"></div></div></div>
 					</form>
+
 				</div>
 			</div>
 		</div>
+		<div class="modal-result" id="modalResult">
+			<button class="modal-result__btn-close" id="modalCloseBtn">
+				<img src="./icons/cross-button.png" alt="cross button" class="modal-result__icon-close">
+			</button>
+			<div class="modal-result__container">
+			</div>
 	</section>
 	<div class="block__copyright">
 		<div class="container">
