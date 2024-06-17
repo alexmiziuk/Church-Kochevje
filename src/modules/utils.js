@@ -1,4 +1,3 @@
-// utils.js
 export function getScrollBarSize() {
 	var el = window.document.createElement('textarea'),
 		 style = {

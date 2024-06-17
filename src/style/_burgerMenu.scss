@@ -7,7 +7,6 @@
 	background-color: rgba(0, 0, 0, 0.5);
 	z-index: 99;
 	transition: left 0.3s ease-in-out;
-	/* display: none; */
 	&.burger-layer-active {
 		left: 0;
 	}
@@ -32,7 +31,7 @@
 		display: inline-block;
 		max-width: 139px;
 		margin: 20px 20px 20px 20px;
-		font-family: "Poppins-regular", sans-serif;
+		font-family: "Poppins-Regular", sans-serif;
 		font-size: 18px;
 		letter-spacing: 0.5px;
 		cursor: pointer;
@@ -41,6 +40,8 @@
 		transition: all 0.3s ease-in-out;
 		&:hover {
 			color: rgba(139, 35, 35, 0.6);
+			font-family: "Poppins-Black", sans-serif;
+			
 		}
 		&.burger-menu__item--active {
 			color: white;

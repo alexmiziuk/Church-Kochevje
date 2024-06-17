@@ -36,12 +36,24 @@
 		border: none;
 		top: 9.31px;
 		right: 9.31px;
+		width: 18px;
+		/* border-radius: 50%; */
+		transition: all ease 0.3s;
 		cursor: pointer;
+		&:hover {
+			box-shadow: 2px -2px 4px rgba(0, 0, 0, 0.3);
+		}
+		&:active {
+			box-shadow: 1.4px -1px 4px rgba(0, 0, 0, 0.3);
+		 }
 	}
 	&__icon-exit {
 		width: 11.38px;
 		height: 11.38px;
-	}
+		&:active {
+			transform: scale(0.75);
+		 }
+}
 	&__title {
 		color: $text-color-primary;
 		font-size: 34px;
@@ -59,7 +71,7 @@
 			font-family: Poppins-Regular, sans-serif;
 			box-sizing: border-box;
 			border: 1px solid #a0a0a0;
-			color: #a29b9b;
+			color: #585151;
 			border-radius: 8px;
 			background: rgb(255, 255, 255);
 			padding: 8px 12px 8px 12px;
@@ -80,7 +92,7 @@
 			border: 1px solid #a0a0a0;
 			border-radius: 8px;
 			background: rgb(255, 255, 255);
-			color: #a29b9b;
+			color: #585151;
 			padding: 8px 12px 8px 12px;
 			font-size: 14px;
 			font-weight: 400;
@@ -100,7 +112,7 @@
 			border-radius: 8px;
 			background: rgb(255, 255, 255);
 			padding: 8px 12px 8px 12px;
-			color: #a29b9b;
+			color: #585151;
 			font-size: 14px;
 			font-weight: 400;
 			line-height: 150%;
@@ -221,6 +233,11 @@ textarea.placeholder-hidden::placeholder {
 .hide {
 	display: none;
 }
+input:-webkit-autofill {
+	color: #585151; /* Цвет текста, который подставляется автоматически браузером */
+	-webkit-text-fill-color: #585151; /* Цвет текста внутри автозаполненного поля */
+	transition: background-color 5000s ease-in-out 0s; /* Убирает фоновый цвет */
+ }
 @media (max-width: 835px) {
 	.modal {
 		width: 700px;

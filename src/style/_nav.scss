@@ -48,15 +48,16 @@
 			cursor: pointer;
 			text-decoration: none;
 			color: $text-color-primary;
+			color: rgba(139, 35, 35, 0.8);
 			transition: all 0.3s ease-in-out;
 			&:hover {
-				color: rgba(139, 35, 35, 0.6);
+				color: rgb(125, 32, 32);
 			}
 		}
 	}
 }
 .nav__menu-item--active {
-	font-family: Poppins-Medium, sans-serif;
+	font-family: "Poppins-Medium", sans-serif;
 }
 @media (max-width: 914px) {
 	.nav {

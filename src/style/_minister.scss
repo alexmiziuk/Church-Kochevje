@@ -60,7 +60,8 @@
 		text-decoration: none;
 		@include text($text-color-primary);
 		font-size: 14px;
-		color: black;
+		color: rgb(33, 31, 31);
+		transition: all ease 0.3s;
 		&:before {
 			content: "";
 			position: absolute;
@@ -74,13 +75,17 @@
 			z-index: 100;
 			display: inline-block;
 		}
+		&:hover {
+			color: black;
+		}
 	}
 	&__link-mail {
 		position: relative;
 		@include text($text-color-primary);
 		font-size: 14px;
 		text-decoration: none;
-		color: black;
+		color: rgb(33, 31, 31);
+		transition: all ease 0.3s;
 		&:before {
 			content: "";
 			position: absolute;
@@ -93,7 +98,11 @@
 			transform: translateY(-50%);
 			display: inline-block;
 		}
+		&:hover {
+			color: black;
+		}
 	}
+	
 }
 
 @media (max-width: 1200px) {

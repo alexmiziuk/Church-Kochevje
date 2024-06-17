@@ -134,4 +134,3 @@ export function hideModalForm() {
 showModal();
 validateForm();
 handleInputFocusBlur();
-
