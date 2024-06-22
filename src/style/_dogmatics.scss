@@ -64,10 +64,14 @@
 	.dogmatics {
 		&__card-img {
 			height: 252px;
+			&--last {
+				object-position: 50% 28%;
+			}
 		}
 		&__card {
 			width: 80%;
 		}
+		
 	}
 }
 @media (max-width: 576px) {

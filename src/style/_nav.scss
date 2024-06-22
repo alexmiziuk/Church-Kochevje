@@ -1,7 +1,7 @@
 .nav {
 	position: relative;
 	background-color: #b1ccbd;
-	padding: 20px 0 15px 0;
+	padding: 12px 0 0 0;
 	width: 100%;
 	&__wrapper {
 		display: flex;
@@ -12,12 +12,11 @@
 		align-items: center;
 	}
 	&__link-logo {
-		margin-top: 15px;
 		text-decoration: none;
 	}
 	&__logo {
-		width: 78px;
-		height: 68px;
+		width: auto;
+		height: 99px;
 	}
 	&__logo-text {
 		display: flex;

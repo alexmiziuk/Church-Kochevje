@@ -1,6 +1,6 @@
 .welcome {
 	padding: 105px 0 80px 0;
-	height: 68vh;
+	height: 74vh;
 	width: 100%;
 	background-image: url(./img/Welcome-to-Our-Baptist-Church1.png);
 	background-repeat: no-repeat;
@@ -115,7 +115,7 @@
 @media (max-width: 768px) {
 	.welcome {
 		height: 53vh;
-		background-position: left 20% center;
+		background-position: left 14% center;
 		&__title {
 			@include title-768px();
 		}
@@ -175,7 +175,7 @@
 }
 @media (max-width: 576px) {
 	.welcome {
-		background-position: left 35% center;
+		background-position: left 31% center;
 		&__title {
 			font-size: 40px;
 			line-height: 50px;
