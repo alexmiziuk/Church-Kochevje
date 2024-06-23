@@ -1,6 +1,7 @@
 import { getScrollBarSize } from './utils.js';
 
-function toggleBurgerMenu() {
+
+export function toggleBurgerMenu() {
 	const toggleButton = document.getElementById('toggleBurger');
 	const burger = document.querySelector('.burger');
 	const burgerLayer = document.querySelector('.burger-layer');
@@ -44,7 +45,7 @@ function toggleBurgerMenu() {
 		});
 
 	}
-	handleMenuItemClick();
+
 
 	burgerLayer.addEventListener('click', () => {
 		burger.classList.remove('active-burger');
@@ -58,7 +59,9 @@ function toggleBurgerMenu() {
 	burgerMenuContainer.addEventListener('click', (event) => {
 		event.stopPropagation();
 	});
+
+	handleMenuItemClick();
 }
 
-toggleBurgerMenu();
+
 

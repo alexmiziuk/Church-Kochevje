@@ -1,5 +1,6 @@
 import { getScrollBarSize } from './utils.js';
 
+
 const form = document.getElementById('contactForm');
 const nameInput = document.getElementById('name');
 const emailInput = document.getElementById('email');
@@ -131,6 +132,8 @@ export function hideModalForm() {
 	modalWindow.classList.remove('modal__visible');
 }
 
-showModal();
-validateForm();
-handleInputFocusBlur();
+export function modal() {
+	showModal();
+	validateForm();
+	handleInputFocusBlur();
+}
