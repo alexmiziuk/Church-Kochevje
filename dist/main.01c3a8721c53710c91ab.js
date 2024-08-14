@@ -8978,6 +8978,14 @@ module.exports = function (url, options) {
 
 /***/ }),
 
+/***/ 2722:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+module.exports = __webpack_require__.p + "assets/Designer.png";
+
+/***/ }),
+
 /***/ 8663:
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
@@ -9002,27 +9010,11 @@ module.exports = __webpack_require__.p + "assets/whatsapp.png";
 
 /***/ }),
 
-/***/ 7104:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
-
-"use strict";
-module.exports = __webpack_require__.p + "assets/youtube.png";
-
-/***/ }),
-
 /***/ 1312:
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
 module.exports = __webpack_require__.p + "assets/cross-button.png";
-
-/***/ }),
-
-/***/ 4927:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
-
-"use strict";
-module.exports = __webpack_require__.p + "assets/logo.png";
 
 /***/ }),
 
@@ -9106,11 +9098,123 @@ module.exports = __webpack_require__.p + "assets/doNot-deels-card.jpg";
 
 /***/ }),
 
-/***/ 6347:
+/***/ 9723:
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
-module.exports = __webpack_require__.p + "assets/evangelism-card.jpg";
+module.exports = __webpack_require__.p + "assets/famaly.jpg";
+
+/***/ }),
+
+/***/ 5101:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+module.exports = __webpack_require__.p + "assets/android-icon-192x192.png";
+
+/***/ }),
+
+/***/ 9426:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+module.exports = __webpack_require__.p + "assets/apple-icon-114x114.png";
+
+/***/ }),
+
+/***/ 8642:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+module.exports = __webpack_require__.p + "assets/apple-icon-120x120.png";
+
+/***/ }),
+
+/***/ 5774:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+module.exports = __webpack_require__.p + "assets/apple-icon-144x144.png";
+
+/***/ }),
+
+/***/ 3070:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+module.exports = __webpack_require__.p + "assets/apple-icon-152x152.png";
+
+/***/ }),
+
+/***/ 6254:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+module.exports = __webpack_require__.p + "assets/apple-icon-180x180.png";
+
+/***/ }),
+
+/***/ 2130:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+module.exports = __webpack_require__.p + "assets/apple-icon-57x57.png";
+
+/***/ }),
+
+/***/ 9590:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+module.exports = __webpack_require__.p + "assets/apple-icon-60x60.png";
+
+/***/ }),
+
+/***/ 6336:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+module.exports = __webpack_require__.p + "assets/apple-icon-72x72.png";
+
+/***/ }),
+
+/***/ 7656:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+module.exports = __webpack_require__.p + "assets/apple-icon-76x76.png";
+
+/***/ }),
+
+/***/ 2102:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+module.exports = __webpack_require__.p + "assets/favicon-16x16.png";
+
+/***/ }),
+
+/***/ 4282:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+module.exports = __webpack_require__.p + "assets/favicon-32x32.png";
+
+/***/ }),
+
+/***/ 6518:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+module.exports = __webpack_require__.p + "assets/favicon-96x96.png";
+
+/***/ }),
+
+/***/ 3170:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+module.exports = __webpack_require__.p + "assets/ms-icon-144x144.png";
 
 /***/ }),
 
@@ -9127,6 +9231,14 @@ module.exports = __webpack_require__.p + "assets/jesus-card.jpg";
 
 "use strict";
 module.exports = __webpack_require__.p + "assets/minister.jpg";
+
+/***/ }),
+
+/***/ 8553:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+module.exports = __webpack_require__.p + "assets/manifest.json";
 
 /***/ })
 
@@ -9279,25 +9391,39 @@ var getUrl_default = /*#__PURE__*/__webpack_require__.n(getUrl);
 ;// CONCATENATED MODULE: ./src/index.html
 // Imports
 
-var ___HTML_LOADER_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(4927), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(3735), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(6590), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(9022), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_4___ = new URL(/* asset import */ __webpack_require__(1226), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_5___ = new URL(/* asset import */ __webpack_require__(2694), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_6___ = new URL(/* asset import */ __webpack_require__(6296), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_7___ = new URL(/* asset import */ __webpack_require__(6363), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_8___ = new URL(/* asset import */ __webpack_require__(2520), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_9___ = new URL(/* asset import */ __webpack_require__(1704), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_10___ = new URL(/* asset import */ __webpack_require__(6347), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_11___ = new URL(/* asset import */ __webpack_require__(1421), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_12___ = new URL(/* asset import */ __webpack_require__(7781), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_13___ = new URL(/* asset import */ __webpack_require__(2785), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_14___ = new URL(/* asset import */ __webpack_require__(8663), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_15___ = new URL(/* asset import */ __webpack_require__(7104), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_16___ = new URL(/* asset import */ __webpack_require__(2450), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_17___ = new URL(/* asset import */ __webpack_require__(423), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_18___ = new URL(/* asset import */ __webpack_require__(1312), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(6363), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(2130), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(9590), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(6336), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_4___ = new URL(/* asset import */ __webpack_require__(7656), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_5___ = new URL(/* asset import */ __webpack_require__(9426), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_6___ = new URL(/* asset import */ __webpack_require__(8642), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_7___ = new URL(/* asset import */ __webpack_require__(5774), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_8___ = new URL(/* asset import */ __webpack_require__(3070), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_9___ = new URL(/* asset import */ __webpack_require__(6254), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_10___ = new URL(/* asset import */ __webpack_require__(5101), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_11___ = new URL(/* asset import */ __webpack_require__(4282), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_12___ = new URL(/* asset import */ __webpack_require__(6518), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_13___ = new URL(/* asset import */ __webpack_require__(2102), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_14___ = new URL(/* asset import */ __webpack_require__(8553), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_15___ = new URL(/* asset import */ __webpack_require__(3170), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_16___ = new URL(/* asset import */ __webpack_require__(2722), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_17___ = new URL(/* asset import */ __webpack_require__(3735), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_18___ = new URL(/* asset import */ __webpack_require__(6590), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_19___ = new URL(/* asset import */ __webpack_require__(9022), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_20___ = new URL(/* asset import */ __webpack_require__(1226), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_21___ = new URL(/* asset import */ __webpack_require__(2694), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_22___ = new URL(/* asset import */ __webpack_require__(6296), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_23___ = new URL(/* asset import */ __webpack_require__(2520), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_24___ = new URL(/* asset import */ __webpack_require__(1704), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_25___ = new URL(/* asset import */ __webpack_require__(9723), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_26___ = new URL(/* asset import */ __webpack_require__(1421), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_27___ = new URL(/* asset import */ __webpack_require__(7781), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_28___ = new URL(/* asset import */ __webpack_require__(2785), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_29___ = new URL(/* asset import */ __webpack_require__(8663), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_30___ = new URL(/* asset import */ __webpack_require__(2450), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_31___ = new URL(/* asset import */ __webpack_require__(423), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_32___ = new URL(/* asset import */ __webpack_require__(1312), __webpack_require__.b);
 // Module
 var ___HTML_LOADER_REPLACEMENT_0___ = getUrl_default()(___HTML_LOADER_IMPORT_0___);
 var ___HTML_LOADER_REPLACEMENT_1___ = getUrl_default()(___HTML_LOADER_IMPORT_1___);
@@ -9318,7 +9444,21 @@ var ___HTML_LOADER_REPLACEMENT_15___ = getUrl_default()(___HTML_LOADER_IMPORT_15
 var ___HTML_LOADER_REPLACEMENT_16___ = getUrl_default()(___HTML_LOADER_IMPORT_16___);
 var ___HTML_LOADER_REPLACEMENT_17___ = getUrl_default()(___HTML_LOADER_IMPORT_17___);
 var ___HTML_LOADER_REPLACEMENT_18___ = getUrl_default()(___HTML_LOADER_IMPORT_18___);
-var code = "<!DOCTYPE html> <html lang=\"si\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"> <title>Church</title> </head> <body> <nav class=\"nav\"> <div class=\"container\"> <div class=\"nav__wrapper\"> <a class=\"nav__link-logo\" href=\"#\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_0___ + "\" class=\"nav__logo\" alt=\"logo\"> <div class=\"nav__logo-text\"> <span class=\"nav__logo-text-first\">Evangelijska cerkev</span> <span class=\"nav__logo-text-second\">KOČEVJE</span> </div> </a> <div class=\"nav__menu\"> <a class=\"nav__menu-item\" href=\"#welcome\">Dobrodošli</a> <a class=\"nav__menu-item\" href=\"#o-nas\">O nas</a> <a class=\"nav__menu-item\" href=\"#activities\">Aktivnosti</a> <a class=\"nav__menu-item\" href=\"#kaj-verujemo\">Kaj verujemo</a> <a class=\"nav__menu-item\" href=\"#minister\">O pastorju</a> <a class=\"nav__menu-item\" href=\"#contacts\">Kontakti</a> </div> </div> </div> <div class=\"burger\" id=\"toggleBurger\"> <span class=\"burger__line\"></span> <span class=\"burger__line\"></span> <span class=\"burger__line\"></span> </div> </nav> <div class=\"burger-layer\"> <div class=\"burger-menu\"> <div class=\"burger-menu__container\"> <a class=\"burger-menu__item\" href=\"#pricing\">Dobrodošli</a> <a class=\"burger-menu__item\" href=\"#o-nas\">O nas</a> <a class=\"burger-menu__item\" href=\"#activities\">Aktivnosti</a> <a class=\"burger-menu__item\" href=\"#kaj-verujemo\">Kaj verujemo</a> <a class=\"burger-menu__item\" href=\"#minister\">O pastorju</a> <a class=\"burger-menu__item\" href=\"#contacts\">Kontakti</a> </div> </div> </div> <section class=\"welcome\" id=\"welcome\"> <div class=\"container\"> <h1 class=\"welcome__title\">Dobrodošli <br/>v Našo Cerkev</h1> <p class=\"welcome__subtitle\"> Čakamo vas na službi, da skupaj slavimo Boga in delimo Njegovo ljubezen z drugimi </p> <a href=\"#o-nas\" class=\"welcome__btn\"> O nas </a> </div> </section> <section class=\"o-nas\" id=\"o-nas\"> <div class=\"container\"> <div class=\"o-nas__flex-container\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_1___ + "\" alt=\"palms heart\" class=\"o-nas__img\"> <div class=\"o-nas__content\"> <h2 class=\"o-nas__title\">O nas</h2> <p class=\"o-nas__subtitle\">Kdo smo mi?</p> <div class=\"o-nas__text-one\"> Evangelikalna cerkev v mestu Kočevje - to je skupnost vernikov krščanske vere, združenih v veri v Jezusa Kristusa. Smo del Slovenske evangeličanske cerkve in si prizadevamo slediti nauku evangelija v našem vsakdanjem življenju. </div> <div class=\"o-nas__text-two\"> Naša skupnost si prizadeva služiti Bogu in ljudem. Izvajamo bogoslužja, preučujemo Sveto pismo, molimo drug za drugega, pomagamo potrebnim in delimo evangelij s svojim okoljem. </div> </div> </div> </div></section> <section class=\"activities\" id=\"activities\"> <div class=\"container\"> <div class=\"activities__flex-container\"> <div class=\"activities__block-information\"> <div class=\"activities__wrapper\"> <div class=\"activities__block-content\"> <div class=\"activities__text-wrapper\"> <h2 class=\"activities__title\" id=\"aktivnosti\">Aktivnosti</h2> <p class=\"activities__text\"> Če iščete duhovno skupnost, kjer lahko poglobite svojo vero in služite drugim, vas vabimo, da se nam pridružite. Vedno smo veseli, da pozdravimo nove ljudi v naši skupnosti </p> <p class=\"activities__sunday\">Vsako nedeljo ob 9.30 </p> <p class=\"activities__wednesday\">Vsako sredo mala skupina ob 18.00</p> <p class=\"activities__adress\"> Naš naslov: Reška cesta 7b, 1330 Kočevje. </p> </div> </div> <div class=\"activities__map-container\"> <iframe class=\"activities__map\" src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2789.7094558942263!2d14.86296918839201!3d45.63657272561238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4764ee167730826f%3A0x7dc2df66611573e7!2sRe%C5%A1ka%20cesta%207b%2C%201330%20Ko%C4%8Devje!5e0!3m2!1suk!2ssi!4v1714550068073!5m2!1suk!2ssi\" width=\"100%\" height=\"100%\" style=\"border:0\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"> </iframe> </div> </div> </div> <div class=\"activities__block-img\"> <div class=\"activities__img-container-text\"> <h3 class=\"activities__img-title\"> Pridružite se nam pri nedeljskem bogoslužju in majhnih skupinah </h3> <p class=\"activities__img-text\">Vabljeni ste!</p> </div> <img class=\"activities__img\" src=\"" + ___HTML_LOADER_REPLACEMENT_2___ + "\" alt=\"activities img\"> </div> </div> </div> </section> <section class=\"dogmatics\" id=\"kaj-verujemo\"> <div class=\"container\"> <h2 class=\"dogmatics__title\">Kaj verujemo</h2> <div class=\"dogmatics__flex-container\"> <div class=\"dogmatics__card\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_3___ + "\" alt=\"card image\" class=\"dogmatics__card-img\"> <div class=\"dogmatics__card-wrapper\"> <h3 class=\"dogmatics__card-title\">Vera v enega Boga</h3> <div class=\"dogmatics__card-text\"> Verujemo v enega Boga, Stvarnika vsega stvarstva, ki se je razodel kot Oče, Sin in Sveti Duh. </div> </div> </div> <div class=\"dogmatics__card\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_4___ + "\" alt=\"card image\" class=\"dogmatics__card-img\"> <div class=\"dogmatics__card-wrapper\"> <h3 class=\"dogmatics__card-title\">Avtoriteta Svete Pisma</h3> <div class=\"dogmatics__card-text\"> Priznavamo Biblijo kot nezmotljivo Božjo Besedo, navdihnjeno s strani Svetega Duha, vir resnice in vodilo za naše življenje. </div> </div> </div> <div class=\"dogmatics__card\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_5___ + "\" alt=\"card image\" class=\"dogmatics__card-img\"> <div class=\"dogmatics__card-wrapper\"> <h3 class=\"dogmatics__card-title\">Odkupljenje skozi Jezusa Kristusa</h3> <div class=\"dogmatics__card-text\"> Verujemo, da je Jezus Kristus, Božji Sin, prišel na svet, da bi umrl za grehe sveta in zagotovil odkupljenje za vse, ki vanj verujejo </div> </div> </div> <div class=\"dogmatics__card\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_6___ + "\" alt=\"card image\" class=\"dogmatics__card-img\"> <div class=\"dogmatics__card-wrapper\"> <h3 class=\"dogmatics__card-title\">Rešitev le skozi vero</h3> <div class=\"dogmatics__card-text\"> Trdimo, da je rešitev mogoča le skozi vero v Jezusa Kristusa, ne pa skozi lastna prizadevanja ali zasluge </div> </div> </div> <div class=\"dogmatics__card\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_7___ + "\" alt=\"card image\" class=\"dogmatics__card-img\"> <div class=\"dogmatics__card-wrapper\"> <h3 class=\"dogmatics__card-title\">Pomen Cerkve</h3> <div class=\"dogmatics__card-text\"> Cerkev vidimo kot Kristusovo telo, združeno v veri in poklicano izpolnjevati Njegovo voljo na zemlji </div> </div> </div> <div class=\"dogmatics__card\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_8___ + "\" alt=\"card image\" class=\"dogmatics__card-img\"> <div class=\"dogmatics__card-wrapper\"> <h3 class=\"dogmatics__card-title\">Praksa krsta po veri</h3> <div class=\"dogmatics__card-text\"> Sledimo zgledu prvih kristjanov in prakticiramo krst vernikov na podlagi njihove vere v Jezusa Kristusa </div> </div> </div> <div class=\"dogmatics__card\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_9___ + "\" alt=\"card image\" class=\"dogmatics__card-img\"> <div class=\"dogmatics__card-wrapper\"> <h3 class=\"dogmatics__card-title\">Temeljenje na Božji Besedi</h3> <div class=\"dogmatics__card-text\"> Zatrdimo, da morajo biti vsa naša prepričanja in prakse utemeljena na Svetem Pismu </div> </div> </div> <div class=\"dogmatics__card\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_10___ + "\" alt=\"card image\" class=\"dogmatics__card-img\"> <div class=\"dogmatics__card-wrapper\"> <h3 class=\"dogmatics__card-title\">Poziv k oznanjevanju in učenju</h3> <div class=\"dogmatics__card-text\"> Poklicani smo, da delamo učence vseh narodov, oznanjajoč evangelij Jezusa Kristusa in jih učimo Njegovemu nauku </div> </div> </div> </div> </div> </section> <section class=\"minister\" id=\"minister\"> <div class=\"container\"> <div class=\"minister__flex-container\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_11___ + "\" alt=\"minister of the church\" class=\"minister__img\"> <div class=\"minister__text-wrapper\"> <h3 class=\"minister__title\">O pastorju</h3> <div class=\"minister__text\"> <p class=\"minister__text-pastor-one\"> Pastor Toni Mrvič je diplomant Evangelijske teološke fakultete. V začetnih letih delovanja je bil vodja mladinske skupine, pridigar ter duhovni oskrbovalec zapornikov na Dobu. Od leta 2001 živi in deluje v Kočevju. V začetku je vodil podružnično cerkev, ki je leta 2014 postala samostojna lokalna Evangelijska cerkev. </p> <p class=\"minister__text-pastor-two\"> Poleg pastoralnega dela v Kočevju vodi tudi biblično skupino v Straži. Je organizator in vodja mnogih humanitarnih in kulturnih dogodkov. Na mnogih tiskanih, elektronskih in internetnih medijih lahko najdete njegove članke in kolumne, kot tudi dejstva o njem in njegovem delu. </p> </div> <span class=\"minister__divider\"></span> <div class=\"minister__contacts\"> <div class=\"minister__contacts-block\"> <a href=\"viber://chat?number=%2B38631546182\" class=\"contacts__links\"> <img class=\"minister__contacts-social\" src=\"" + ___HTML_LOADER_REPLACEMENT_12___ + "\" alt=\"Viber\"/> </a> <a href=\"https://wa.me/38631546182\" class=\"contacts__links\"> <img class=\"minister__contacts-social\" src=\"" + ___HTML_LOADER_REPLACEMENT_13___ + "\" alt=\"Whatsapp\"/> </a> <a href=\"https://www.facebook.com/toni.mrvic\" class=\"contacts__links\"> <img class=\"minister__contacts-social\" src=\"" + ___HTML_LOADER_REPLACEMENT_14___ + "\" alt=\"Whatsapp\"/> </a> <a href=\"https://www.youtube.com/channel/UCT8p3FEJke3MutLzIkyGCWQ\" class=\"contacts__links\"> <img class=\"minister__contacts-social\" src=\"" + ___HTML_LOADER_REPLACEMENT_15___ + "\" alt=\"Whatsapp\"/> </a> </div> <div class=\"minister__contacts-telephone-mail\"> <a href=\"tel:+38631546182\" class=\"minister__link-telephone\">+386 31 546 182</a> <a href=\"mailto:toni.mrvic@evc.si\" class=\"minister__link-mail\">toni.mrvic@evc.si</a> </div> </div> </div> </div></div></section> <section class=\"footer\"> <div class=\"container\"> <div class=\"footer__grid-container\"> <div class=\"footer__text-wrapper\"> <div class=\"footer__ekc-container\"> <P class=\"footer__ekc-text\"> Evangelikalna cerkev v Kočevju je protestantska skupnost, ki je del <br/> <span><img src=\"" + ___HTML_LOADER_REPLACEMENT_16___ + "\" alt=\"EKC cross\" class=\"footer__img\"> \"Evangelikalne Krščanske Zveze Cerkva Slovenije.\"</span> Naša misija je prinašati v svet in oznanjati evangelij Jezusa Kristusa. </P> <a href=\"https://www.biblija.net/biblija.cgi?m=Jn+3&id13=1&pos=0&set=2&l=sl\" class=\"footer__bible-text\"> \"Bog je namreč svet tako vzljubil, da je dal svojega edinorojenega Sina, da bi se nihče, kdor vanj veruje, ne pogubil, ampak bi imel večno življenje.\" <span>Jn. 3,16</span> </a> </div> </div> <div class=\"footer__contacts\" id=\"contacts\"> <h3 class=\"footer__contacts-title\">Kontakti</h3> <p class=\"footer__contacts-telephone\"> <span>telefon:</span> <a href=\"tel:+38631546182\">+386 31 546 182</a> </p> <p class=\"footer__contacts-mail\"> <span>E-pošta:</span> <a href=\"mailto:toni.mrvic@evc.si\">toni.mrvic@evc.si</a> </p> <p class=\"footer__contacts-address\"> <span>Naš naslov:</span> <a href=\"https://www.google.com/maps/place/Re%C5%A1ka+cesta+7b,+1330+Ko%C4%8Devje/@45.636833,14.862922,15z/data=!4m6!3m5!1s0x4764ee167730826f:0x7dc2df66611573e7!8m2!3d45.6368331!4d14.8629218!16s%2Fg%2F11c0zhl47y?hl=uk&entry=ttu\"> Reška cesta 7b, 1330 Kočevje </a> </p> <button class=\"footer__contacts-btn\">Pišite nam</button> </div> <ul class=\"footer__nav\"> <li> <a class=\"footer__nav-item\" href=\"#welcome\">Dobrodošli</a> </li> <li> <a class=\"footer__nav-item\" href=\"#o-nas\">O nas</a> </li> <li> <a class=\"footer__nav-item\" href=\"#activities\">Aktivnosti</a> </li> <li> <a class=\"footer__nav-item\" href=\"#kaj-verujemo\">Kaj verujemo</a> </li> <li> <a class=\"footer__nav-item\" href=\"#minister\">O pastorju</a> </li> <li> <a class=\"footer__nav-item\" href=\"#contacts\">Kontakti</a> </li> </ul> </div> </div> <div id=\"contactModal\" class=\"modal\"> <div class=\"modal__content\"> <div class=\"modal__img-container\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_17___ + "\" alt=\"contact\" class=\"modal__img\"> </div> <div class=\"modal__form-container\"> <button class=\"modal__button-exit\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_18___ + "\" alt=\"cross button\" class=\"modal__icon-exit\"> </button> <h2 class=\"modal__title\">Z veseljem vam bomo odgovorili na vaša vprašanja</h2> <form class=\"modal__form\" id=\"contactForm\" action=\"#\" method=\"post\"> <label class=\"modal__label-name\" for=\"name\">Ime:</label> <input class=\"modal__form-name\" type=\"text\" id=\"name\" name=\"name\" placeholder=\"Matej Novak\"> <div class=\"error error-name hide\">Name is required</div> <label class=\"modal__label-email\" for=\"email\">E-naslov:</label> <input class=\"modal__form-email\" type=\"email\" id=\"email\" name=\"email\" placeholder=\"matej.novak@evc.si\"> <div class=\"error error-mail hide\">Email is invalid</div> <label class=\"modal__label-message\" for=\"message\">Sporočilo:</label> <textarea class=\"modal__form-message\" id=\"message\" name=\"message\" rows=\"4\" placeholder=\"Tukaj je vaša sporočilo\"></textarea> <div class=\"error error-message hide\">Message is required</div> <button class=\"modal__btn\" type=\"submit\">Pošlji</button> <div class=\"modal__container-privacy\"> <input class=\"modal__checkbox\" type=\"checkbox\" name=\"checkbox\" id=\"checkbox\"> <div class=\"modal__container-item\"> S pošiljanjem se strinjate z našimi <a href=\"./privacy/privacy.html\">Pogoji</a> and <a href=\"./privacy/privacy.html\">Politiko Zasebnosti</a> </div> </div> <div class=\"error error-checkbox hide\">Potrditveno polje je obvezno</div> <div id=\"xLoader\"> <div class=\"google-spin-wrapper\"> <div class=\"google-spin\"></div> </div> </div> </form> </div> </div> </div> <div class=\"modal-result\" id=\"modalResult\"> <button class=\"modal-result__btn-close\" id=\"modalCloseBtn\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_18___ + "\" alt=\"cross button\" class=\"modal-result__icon-close\"> </button> <div class=\"modal-result__container\"> </div> </div></section> <div class=\"block__copyright\"> <div class=\"container\"> <p class=\"block__copyright-text\">© 2024. Evangeličanska cerkev Kočevje. All rights reserved.</p> </div> </div> </body> </html>";
+var ___HTML_LOADER_REPLACEMENT_19___ = getUrl_default()(___HTML_LOADER_IMPORT_19___);
+var ___HTML_LOADER_REPLACEMENT_20___ = getUrl_default()(___HTML_LOADER_IMPORT_20___);
+var ___HTML_LOADER_REPLACEMENT_21___ = getUrl_default()(___HTML_LOADER_IMPORT_21___);
+var ___HTML_LOADER_REPLACEMENT_22___ = getUrl_default()(___HTML_LOADER_IMPORT_22___);
+var ___HTML_LOADER_REPLACEMENT_23___ = getUrl_default()(___HTML_LOADER_IMPORT_23___);
+var ___HTML_LOADER_REPLACEMENT_24___ = getUrl_default()(___HTML_LOADER_IMPORT_24___);
+var ___HTML_LOADER_REPLACEMENT_25___ = getUrl_default()(___HTML_LOADER_IMPORT_25___);
+var ___HTML_LOADER_REPLACEMENT_26___ = getUrl_default()(___HTML_LOADER_IMPORT_26___);
+var ___HTML_LOADER_REPLACEMENT_27___ = getUrl_default()(___HTML_LOADER_IMPORT_27___);
+var ___HTML_LOADER_REPLACEMENT_28___ = getUrl_default()(___HTML_LOADER_IMPORT_28___);
+var ___HTML_LOADER_REPLACEMENT_29___ = getUrl_default()(___HTML_LOADER_IMPORT_29___);
+var ___HTML_LOADER_REPLACEMENT_30___ = getUrl_default()(___HTML_LOADER_IMPORT_30___);
+var ___HTML_LOADER_REPLACEMENT_31___ = getUrl_default()(___HTML_LOADER_IMPORT_31___);
+var ___HTML_LOADER_REPLACEMENT_32___ = getUrl_default()(___HTML_LOADER_IMPORT_32___);
+var code = "<!DOCTYPE html> <html lang=\"si\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"> <title>Evangelijska cerkev Kočevje</title> <meta name=\"title\" content=\"EVANGELIJSKA CERKEV KOČEVJE\"/> <meta name=\"description\" content=\"Dobrodošli v Našo Cerkev! Čakamo vas na službi, da skupaj slavimo Boga in delimo Njegovo ljubezen z drugimi.\"/> <meta property=\"og:type\" content=\"website\"/> <meta property=\"og:url\" content=\"https://metatags.io/\"/> <meta property=\"og:title\" content=\"EVANGELIJSKA CERKEV KOČEVJE\"/> <meta property=\"og:description\" content=\"Dobrodošli v Našo Cerkev! Čakamo vas na službi, da skupaj slavimo Boga in delimo Njegovo ljubezen z drugimi.\"/> <meta property=\"og:image\" content=\"" + ___HTML_LOADER_REPLACEMENT_0___ + "\"/> <meta property=\"twitter:card\" content=\"summary_large_image\"/> <meta property=\"twitter:url\" content=\"https://metatags.io/\"/> <meta property=\"twitter:title\" content=\"EVANGELIJSKA CERKEV KOČEVJE\"/> <meta property=\"twitter:description\" content=\"Dobrodošli v Našo Cerkev! Čakamo vas na službi, da skupaj slavimo Boga in delimo Njegovo ljubezen z drugimi.\"/> <meta property=\"twitter:image\" content=\"./img/church-card.jpg\"/> <link rel=\"apple-touch-icon\" sizes=\"57x57\" href=\"" + ___HTML_LOADER_REPLACEMENT_1___ + "\"> <link rel=\"apple-touch-icon\" sizes=\"60x60\" href=\"" + ___HTML_LOADER_REPLACEMENT_2___ + "\"> <link rel=\"apple-touch-icon\" sizes=\"72x72\" href=\"" + ___HTML_LOADER_REPLACEMENT_3___ + "\"> <link rel=\"apple-touch-icon\" sizes=\"76x76\" href=\"" + ___HTML_LOADER_REPLACEMENT_4___ + "\"> <link rel=\"apple-touch-icon\" sizes=\"114x114\" href=\"" + ___HTML_LOADER_REPLACEMENT_5___ + "\"> <link rel=\"apple-touch-icon\" sizes=\"120x120\" href=\"" + ___HTML_LOADER_REPLACEMENT_6___ + "\"> <link rel=\"apple-touch-icon\" sizes=\"144x144\" href=\"" + ___HTML_LOADER_REPLACEMENT_7___ + "\"> <link rel=\"apple-touch-icon\" sizes=\"152x152\" href=\"" + ___HTML_LOADER_REPLACEMENT_8___ + "\"> <link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"" + ___HTML_LOADER_REPLACEMENT_9___ + "\"> <link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"" + ___HTML_LOADER_REPLACEMENT_10___ + "\"> <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"" + ___HTML_LOADER_REPLACEMENT_11___ + "\"> <link rel=\"icon\" type=\"image/png\" sizes=\"96x96\" href=\"" + ___HTML_LOADER_REPLACEMENT_12___ + "\"> <link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"" + ___HTML_LOADER_REPLACEMENT_13___ + "\"> <link rel=\"manifest\" href=\"" + ___HTML_LOADER_REPLACEMENT_14___ + "\"> <meta name=\"msapplication-TileColor\" content=\"#ffffff\"> <meta name=\"msapplication-TileImage\" content=\"" + ___HTML_LOADER_REPLACEMENT_15___ + "\"> <meta name=\"theme-color\" content=\"#ffffff\"> </head> <body> <nav class=\"nav\"> <div class=\"container\"> <div class=\"nav__wrapper\"> <a class=\"nav__link-logo\" href=\"#\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_16___ + "\" class=\"nav__logo\" alt=\"logo\"> <div class=\"nav__logo-text\"> <span class=\"nav__logo-text-first\">Evangelijska cerkev</span> <span class=\"nav__logo-text-second\">KOČEVJE</span> </div> </a> <div class=\"nav__menu\"> <a class=\"nav__menu-item\" href=\"#welcome\">Dobrodošli</a> <a class=\"nav__menu-item\" href=\"#o-nas\">O nas</a> <a class=\"nav__menu-item\" href=\"#activities\">Aktivnosti</a> <a class=\"nav__menu-item\" href=\"#kaj-verujemo\">Kaj verujemo</a> <a class=\"nav__menu-item\" href=\"#minister\">O pastorju</a> <a class=\"nav__menu-item\" href=\"#contacts\">Kontakti</a> </div> </div> </div> <div class=\"burger\" id=\"toggleBurger\"> <span class=\"burger__line\"></span> <span class=\"burger__line\"></span> <span class=\"burger__line\"></span> </div> </nav> <div class=\"burger-layer\"> <div class=\"burger-menu\"> <div class=\"burger-menu__container\"> <a class=\"burger-menu__item\" href=\"#pricing\">Dobrodošli</a> <a class=\"burger-menu__item\" href=\"#o-nas\">O nas</a> <a class=\"burger-menu__item\" href=\"#activities\">Aktivnosti</a> <a class=\"burger-menu__item\" href=\"#kaj-verujemo\">Kaj verujemo</a> <a class=\"burger-menu__item\" href=\"#minister\">O pastorju</a> <a class=\"burger-menu__item\" href=\"#contacts\">Kontakti</a> </div> </div> </div> <section class=\"welcome\" id=\"welcome\"> <div class=\"container\"> <h1 class=\"welcome__title\">Dobrodošli <br/>v našo cerkev</h1> <p class=\"welcome__subtitle\"> Čakamo vas na službi, da skupaj slavimo Boga in delimo Njegovo ljubezen z drugimi </p> <a href=\"#o-nas\" class=\"welcome__btn\"> O nas </a> </div> </section> <section class=\"o-nas\" id=\"o-nas\"> <div class=\"container\"> <div class=\"o-nas__flex-container\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_17___ + "\" alt=\"palms heart\" class=\"o-nas__img\"> <div class=\"o-nas__content\"> <h2 class=\"o-nas__title\">O nas</h2> <p class=\"o-nas__subtitle\">Kdo smo mi?</p> <div class=\"o-nas__text-one\"> Evangelikalna cerkev v mestu Kočevje - je skupnost vernikov krščanske vere, združenih v veri v Jezusa Kristusa. Smo del Slovenske Evangelijske krščanske cerkve in si prizadevamo slediti nauku evangelija v našem vsakdanjem življenju. </div> <div class=\"o-nas__text-two\"> Naša skupnost si prizadeva služiti Bogu in ljudem. Izvajamo živahna bogoslužja s sodobno krščansko glasbo ter življenjsko pridigo, se spodbujamo k vsestranskem napredku in pogolobitvi odnosov z Bogom in s soljudmi, preučujemo Sveto pismo, molimo drug za drugega, pomagamo pomoči potrebnim in delimo evangelij v svojem okolju. </div> </div> </div> </div></section> <section class=\"activities\" id=\"activities\"> <div class=\"container\"> <div class=\"activities__flex-container\"> <div class=\"activities__block-information\"> <div class=\"activities__wrapper\"> <div class=\"activities__block-content\"> <div class=\"activities__text-wrapper\"> <h2 class=\"activities__title\" id=\"aktivnosti\">Aktivnosti</h2> <p class=\"activities__text\"> Če iščete duhovno skupnost, kjer lahko poglobite svojo vero in najdete notranji mir, vas vabimo, da se nam pridružite. Z veseljem vam bomo izrekli dobrodošlico. </p> <p class=\"activities__sunday\">Bogoslužje je vsako nedeljo ob 9.30 </p> <p class=\"activities__wednesday\">Poglobljeno preučevanje Svetega pisma vsako sredo ob 18.00</p> <p class=\"activities__adress\"> Naš naslov: Reška cesta 7b, 1330 Kočevje. </p> </div> </div> <div class=\"activities__map-container\"> <iframe class=\"activities__map\" src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2789.7094558942263!2d14.86296918839201!3d45.63657272561238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4764ee167730826f%3A0x7dc2df66611573e7!2sRe%C5%A1ka%20cesta%207b%2C%201330%20Ko%C4%8Devje!5e0!3m2!1suk!2ssi!4v1714550068073!5m2!1suk!2ssi\" width=\"100%\" height=\"100%\" style=\"border:0\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"> </iframe> </div> </div> </div> <div class=\"activities__block-img\"> <div class=\"activities__img-container-text\"> <h3 class=\"activities__img-title\"> Pridružite se nam pri nedeljskem bogoslužju in manjšihih skupinah </h3> <p class=\"activities__img-text\">Dobrodošli!</p> </div> <img class=\"activities__img\" src=\"" + ___HTML_LOADER_REPLACEMENT_18___ + "\" alt=\"activities img\"> </div> </div> </div> </section> <section class=\"dogmatics\" id=\"kaj-verujemo\"> <div class=\"container\"> <h2 class=\"dogmatics__title\">Kaj verujemo</h2> <div class=\"dogmatics__flex-container\"> <div class=\"dogmatics__card\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_19___ + "\" alt=\"card image\" class=\"dogmatics__card-img\"> <div class=\"dogmatics__card-wrapper\"> <h3 class=\"dogmatics__card-title\">Vera v enega Boga</h3> <div class=\"dogmatics__card-text\"> Verujemo v enega Boga, Stvarnika vsega stvarstva, ki se je razodel kot Oče, Sin in Sveti Duh. </div> </div> </div> <div class=\"dogmatics__card\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_20___ + "\" alt=\"card image\" class=\"dogmatics__card-img\"> <div class=\"dogmatics__card-wrapper\"> <h3 class=\"dogmatics__card-title\">Avtoriteta Svetega pisma</h3> <div class=\"dogmatics__card-text\"> Priznavamo Biblijo kot nezmotljivo Božjo besedo, navdihnjeno po Svetem Duhu, ki je vir resnice in vodilo za naše življenje. </div> </div> </div> <div class=\"dogmatics__card\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_21___ + "\" alt=\"card image\" class=\"dogmatics__card-img\"> <div class=\"dogmatics__card-wrapper\"> <h3 class=\"dogmatics__card-title\">Odrešitev skozi Jezusa Kristusa</h3> <div class=\"dogmatics__card-text\"> Verujemo, da je Jezus Kristus, Božji Sin, prišel na svet, da bi umrl za grehe sveta in zagotovil odrešenje za vse, ki vanj verujejo </div> </div> </div> <div class=\"dogmatics__card\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_22___ + "\" alt=\"card image\" class=\"dogmatics__card-img\"> <div class=\"dogmatics__card-wrapper\"> <h3 class=\"dogmatics__card-title\">Rešitev le skozi vero</h3> <div class=\"dogmatics__card-text\"> Verujemo, da je rešitev Božji milostni dar, ki ga sprejmemo po veri v Jezusa Kristusa in ta dar ni pogojen z našimi prizadevanji. </div> </div> </div> <div class=\"dogmatics__card\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_0___ + "\" alt=\"card image\" class=\"dogmatics__card-img\"> <div class=\"dogmatics__card-wrapper\"> <h3 class=\"dogmatics__card-title\">Pomen Cerkve</h3> <div class=\"dogmatics__card-text\"> Cerkev smo ljudje, ki si želimo biti v skupnosti z Bogom, po navodilih Svetega pisma. </div> </div> </div> <div class=\"dogmatics__card\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_23___ + "\" alt=\"card image\" class=\"dogmatics__card-img\"> <div class=\"dogmatics__card-wrapper\"> <h3 class=\"dogmatics__card-title\">Praksa krsta po veri</h3> <div class=\"dogmatics__card-text\"> Po zgledu prvih kristjanov, krščujemo na podlagi osebne vere v Odrešenika Jezusa Kristusa. </div> </div> </div> <div class=\"dogmatics__card\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_24___ + "\" alt=\"card image\" class=\"dogmatics__card-img\"> <div class=\"dogmatics__card-wrapper\"> <h3 class=\"dogmatics__card-title\">Sveto pismo</h3> <div class=\"dogmatics__card-text\"> V Svetem pismu je izražena Božja ljubezen in nanjo nas tudi nagovarja. Zato verujemo in se prizadevamo za življenje po Božji besedi. </div> </div> </div> <div class=\"dogmatics__card\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_25___ + "\" alt=\"card image\" class=\"dogmatics__card-img dogmatics__card-img--last\"> <div class=\"dogmatics__card-wrapper\"> <h3 class=\"dogmatics__card-title\"> Družinske vrednote </h3> <div class=\"dogmatics__card-text\"> Mama in oče sta ključnega pomena za zdrav razvoj otroka in posledično za zdravo družbo. </div> </div> </div> </div> </div> </section> <section class=\"minister\" id=\"minister\"> <div class=\"container\"> <div class=\"minister__flex-container\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_26___ + "\" alt=\"minister of the church\" class=\"minister__img\"> <div class=\"minister__text-wrapper\"> <h3 class=\"minister__title\">O pastorju</h3> <div class=\"minister__text\"> <p class=\"minister__text-pastor-one\"> Pastor Toni Mrvič je diplomiral na Evangelijski teološki fakulteti. Od leta 2001 živi in deluje v Kočevju, ob tem pa tudi vodi lokalno skupnost v Trebnjem. </p> <p class=\"minister__text-pastor-two\"> Od leta 2023 opravlja poslanstvo predstojnika Evangelijske krščanske cerkve v Sloveniji. Je avtor dveh knjig, mnogih člankov ter predavatelj po Sloveniji in tujini. </p> </div> <span class=\"minister__divider\"></span> <div class=\"minister__contacts\"> <div class=\"minister__contacts-block\"> <a href=\"viber://chat?number=%2B38631546182\" class=\"contacts__links\"> <img class=\"minister__contacts-social\" src=\"" + ___HTML_LOADER_REPLACEMENT_27___ + "\" alt=\"Viber\"/> </a> <a href=\"https://wa.me/38631546182\" class=\"contacts__links\"> <img class=\"minister__contacts-social\" src=\"" + ___HTML_LOADER_REPLACEMENT_28___ + "\" alt=\"Whatsapp\"/> </a> <a href=\"https://www.facebook.com/evangelijskacerkevkocevje/\" class=\"contacts__links\"> <img class=\"minister__contacts-social\" src=\"" + ___HTML_LOADER_REPLACEMENT_29___ + "\" alt=\"Facebook\"/> </a> </div> <div class=\"minister__contacts-telephone-mail\"> <a href=\"tel:+38631546182\" class=\"minister__link-telephone\">+386 31 546 182</a> <a href=\"mailto:toni.mrvic@evc.si\" class=\"minister__link-mail\">toni.mrvic@evc.si</a> </div> </div> </div> </div></div></section> <section class=\"footer\"> <div class=\"container\"> <div class=\"footer__grid-container\"> <div class=\"footer__text-wrapper\"> <div class=\"footer__ekc-container\"> <P class=\"footer__ekc-text\"> Evangelikalna cerkev v Kočevju je protestantska skupnost, ki je del <br/> <span><img src=\"" + ___HTML_LOADER_REPLACEMENT_30___ + "\" alt=\"EKC cross\" class=\"footer__img\"> \"Evangelijske krščanske cerkve\"</span> v Sloveniji. Naša misija je prinašati v svet in oznanjati evangelij Jezusa Kristusa. </P> <a href=\"https://www.biblija.net/biblija.cgi?m=Jn+3&id13=1&pos=0&set=2&l=sl\" class=\"footer__bible-text\"> \"Bog je namreč svet tako vzljubil, da je dal svojega edinorojenega Sina, da bi se nihče, kdor vanj veruje, ne pogubil, ampak bi imel večno življenje.\" <span>Jn. 3,16</span> </a> </div> </div> <div class=\"footer__contacts\" id=\"contacts\"> <h3 class=\"footer__contacts-title\">Kontakti</h3> <p class=\"footer__contacts-telephone\"> <span>telefon:</span> <a href=\"tel:+38631546182\">+386 31 546 182</a> </p> <p class=\"footer__contacts-mail\"> <span>E-pošta:</span> <a href=\"mailto:church.kochevje@gmail.com\">church.kochevje@gmail.com</a> </p> <p class=\"footer__contacts-address\"> <span>Naš naslov:</span> <a href=\"https://www.google.com/maps/place/Re%C5%A1ka+cesta+7b,+1330+Ko%C4%8Devje/@45.636833,14.862922,15z/data=!4m6!3m5!1s0x4764ee167730826f:0x7dc2df66611573e7!8m2!3d45.6368331!4d14.8629218!16s%2Fg%2F11c0zhl47y?hl=uk&entry=ttu\"> Reška cesta 7b, 1330 Kočevje </a> </p> <button class=\"footer__contacts-btn\">Pišite nam</button> </div> <ul class=\"footer__nav\"> <li> <a class=\"footer__nav-item\" href=\"#welcome\">Dobrodošli</a> </li> <li> <a class=\"footer__nav-item\" href=\"#o-nas\">O nas</a> </li> <li> <a class=\"footer__nav-item\" href=\"#activities\">Aktivnosti</a> </li> <li> <a class=\"footer__nav-item\" href=\"#kaj-verujemo\">Kaj verujemo</a> </li> <li> <a class=\"footer__nav-item\" href=\"#minister\">O pastorju</a> </li> <li> <a class=\"footer__nav-item\" href=\"#contacts\">Kontakti</a> </li> </ul> </div> </div> <div id=\"contactModal\" class=\"modal\"> <div class=\"modal__content\"> <div class=\"modal__img-container\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_31___ + "\" alt=\"contact\" class=\"modal__img\"> </div> <div class=\"modal__form-container\"> <button class=\"modal__button-exit\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_32___ + "\" alt=\"cross button\" class=\"modal__icon-exit\"> </button> <h2 class=\"modal__title\">Z veseljem vam bomo odgovorili na vaša vprašanja</h2> <form class=\"modal__form\" id=\"contactForm\" action=\"#\" method=\"post\"> <label class=\"modal__label-name\" for=\"name\">Ime:</label> <input class=\"modal__form-name\" type=\"text\" id=\"name\" name=\"name\" placeholder=\"Matej Novak\"> <div class=\"error error-name hide\">Ime je obvezno</div> <label class=\"modal__label-email\" for=\"email\">E-naslov:</label> <input class=\"modal__form-email\" type=\"email\" id=\"email\" name=\"email\" placeholder=\"matej.novak@evc.si\"> <div class=\"error error-mail hide\">E-naslov je neveljaven</div> <label class=\"modal__label-message\" for=\"message\">Sporočilo:</label> <textarea class=\"modal__form-message\" id=\"message\" name=\"message\" rows=\"4\" placeholder=\"Tukaj je vaša sporočilo\"></textarea> <div class=\"error error-message hide\">Sporočilo je potrebno</div> <button class=\"modal__btn\" type=\"submit\">Pošlji</button> <div class=\"modal__container-privacy\"> <input class=\"modal__checkbox\" type=\"checkbox\" name=\"checkbox\" id=\"checkbox\"> <div class=\"modal__container-item\"> S pošiljanjem se strinjate z našimi <a href=\"./privacy/privacy.html\">Pogoji</a> and <a href=\"./privacy/privacy.html\">Politiko Zasebnosti</a> </div> </div> <div class=\"error error-checkbox hide\">Potrditveno polje je obvezno</div> <div id=\"xLoader\"> <div class=\"google-spin-wrapper\"> <div class=\"google-spin\"></div> </div> </div> </form> </div> </div> </div> <div class=\"modal-result\" id=\"modalResult\"> <button class=\"modal-result__btn-close\" id=\"modalCloseBtn\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_32___ + "\" alt=\"cross button\" class=\"modal-result__icon-close\"> </button> <div class=\"modal-result__container\"> </div> </div></section> <div class=\"block__copyright\"> <div class=\"container\"> <p class=\"block__copyright-text\">© 2024. Evangelijska cerkev Kočevje. All rights reserved.</p> </div> </div> </body> </html>";
 // Exports
 /* harmony default export */ var src = ((/* unused pure expression or super */ null && (code)));
 ;// CONCATENATED MODULE: ./src/modules/utils.js
@@ -9395,7 +9535,6 @@ function toggleBurgerMenu() {
       });
     });
   };
-  handleMenuItemClick();
   burgerLayer.addEventListener('click', function () {
     burger.classList.remove('active-burger');
     burgerLayer.classList.remove('burger-layer-active');
@@ -9408,8 +9547,8 @@ function toggleBurgerMenu() {
   burgerMenuContainer.addEventListener('click', function (event) {
     event.stopPropagation();
   });
+  handleMenuItemClick();
 }
-toggleBurgerMenu();
 ;// CONCATENATED MODULE: ./src/modules/modal.js
 
 var modal_form = document.getElementById('contactForm');
@@ -9539,9 +9678,11 @@ function hideModalForm() {
   document.body.style.overflow = 'auto';
   modalWindow.classList.remove('modal__visible');
 }
-showModal();
-validateForm();
-handleInputFocusBlur();
+function modal() {
+  showModal();
+  validateForm();
+  handleInputFocusBlur();
+}
 ;// CONCATENATED MODULE: ./src/modules/modalResult.js
 
 function showModalResult() {
@@ -9650,6 +9791,10 @@ document.getElementById('contactForm').addEventListener('submit', function (e) {
 
 
 
+document.addEventListener('DOMContentLoaded', function () {
+  toggleBurgerMenu();
+  modal();
+});
 }();
 /******/ })()
 ;

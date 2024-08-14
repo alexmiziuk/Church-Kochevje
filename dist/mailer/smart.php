@@ -28,7 +28,7 @@ $mail->addAddress('toni.mrvic@evc.si');     // Add a recipient
 //$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
 $mail->isHTML(true);                                  // Set email format to HTML
 
-$mail->Subject = 'Данные';
+$mail->Subject = 'Podatki';
 $mail->Body    = '
 	Uporabnik je zapustil podatke <br> 
 	Ime: ' . $name . ' <br>
